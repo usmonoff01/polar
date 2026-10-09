@@ -1,0 +1,780 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.continer {
+  width: 1200px;
+  margin: auto;
+
+  background-color: #F2CEDA;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navbar__img {
+  display: flex;
+}
+.navbar__ul {
+  display: flex;
+  gap: 40px;
+}
+.navbar__btn {
+  border: 1px solid;
+  width: 165px;
+  height: 49px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #d23166;
+  color: #fff;
+}
+.navbar__link {
+  color: #150101;
+}
+.home {
+  color: #d23166;
+}
+
+.sentr {
+  margin-top: 37px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sentr__left,
+.sentr__right {
+  width: 400px;
+}
+.sentr__left {
+  width: 660px;
+  margin-left: 100px;
+  height: 400px;
+}
+.sentr__title5 {
+  font-style: medium;
+  font-size: 14px;
+  margin-bottom: 10px;
+    font-family: 'Roboto';
+}
+.sentr__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 57.33px;
+  font-family: "Fredoka";
+
+  color: #0f0101;
+}
+.sentr__span {
+  color: #d23166;
+  font-weight: 900;
+  font-size: 57.33px;
+  font-family: "Fredoka";
+}
+.sentr__text {
+  margin: 35px 0 50px 0;
+  font-size: 18px;
+  color: #0f0101;
+  line-height: 19px;
+  font-weight: 400;
+  font-size: 14px; 
+  font-style: normal;
+  font-family: 'Hind Madurai';
+   
+
+  /* fredoka-regular - latin */
+}
+.sentr__btn {
+  width: 165px;
+  height: 49px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #d23166;
+  color: #fff;
+}
+
+/*intro*/
+
+.intro__continer {
+  width: 1200px;
+  margin: auto;
+  height: 290px;
+}
+.intro__logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 50px;
+}
+.intro__logo1,
+.intro__logo2,
+.intro__logo3,
+.intro__logo4 {
+  border: 1px solid;
+  width: 200px;
+  height: 150px;
+  padding: 20px;
+}
+.intro__logo1__img,
+.intro__logo2__img,
+.intro__logo3__img,
+.intro__logo4__img {
+  margin-left: 80px;
+}
+.intro__logo1__h4 {
+  margin: 10px 50px;
+
+  width: 122px;
+  height: 28px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.intro__logo1__text {
+  /* Last Chance! Free shipping on all orders ends today. */
+  width: 198px;
+  height: 35px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+.intro__logo2__h4 {
+  margin: 10px 30px;
+  /* Quick Packaging */
+
+  width: 147px;
+  height: 28px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.intro__logo2__text {
+  /* Last Chance! Free shipping on all orders ends today. */
+
+  width: 198px;
+  height: 35px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+.intro__logo3__h4 {
+  margin: 10px 30px;
+  /* Quick Packaging */
+
+  /* 100% Money Back */
+
+  width: 191px;
+  height: 28px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.intro__logo3__text {
+  width: 198px;
+  height: 35px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+.intro__logo4__h4 {
+  margin: 10px 40px;
+  /* Quick Packaging */
+
+  /* 100% Money Back */
+
+  width: 191px;
+  height: 28px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.intro__logo4__text {
+  width: 198px;
+  height: 35px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+
+/* brown*/
+
+.brown__continer {
+  width: 1200px;
+  height: 544px;
+  margin: auto;
+
+  background-color: #F2CEDA;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.brown__left {
+  width: 200px;
+}
+.brown__title {
+  /* Brown Sugar Oatmea */
+  width: 349px;
+  height: 98.27px;
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+
+  color: #150101;
+}
+
+.brown__text {
+  /* Together with McDonald’s, Burger King has grown to become synonymous with burgers in the US.Together with McDonald’s, Burger King has grown to become synonymous. */
+  margin: 40px 0;
+  width: 442px;
+  height: 58.16px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #150101;
+
+  opacity: 0.6;
+}
+
+.brown__btn {
+  width: 165px;
+  height: 49px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #d23166;
+  color: #fff;
+}
+
+.brown__right {
+  margin-left: 50px;
+}
+
+.smart__continer {
+  width: 1200px;
+  height: 1740px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.our_product {
+  width: 900px;
+  height: 1000px;
+  margin: auto;
+  margin-top: 135px;
+}
+.our_title {
+  display: flex;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 61px;
+  /* identical to box height */
+
+  color: #150101;
+}
+.cream{
+  color: #000000 !important;
+  
+}
+.our_product__title {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.our__title_hr {
+  /* Line 4 */
+
+  position: absolute;
+  width: 92px;
+  margin-left: 30px;
+
+  border: 3px solid #d64374;
+}
+.our_link {
+  /* CAYENNE CHOCOLATE */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+.our_icecram {
+  /* ICE CREAM */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.our_product__intro {
+  display: flex;
+  align-items: center;
+}
+.our__intiro_title {
+  font-family: 'Hind Madurai';
+  width: 152px;
+  height: 36px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.our_intro_text {
+  width: 430px;
+   font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  margin: 10px 0;
+  color: #000000;
+
+  opacity: 0.7;
+}
+.our_intro_money {
+  display: flex;
+}
+span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+
+  color: #000000;
+}
+del {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration-line: line-through;
+
+  color: #000000;
+
+  opacity: 0.7;
+}
+.our_intro_btn {
+  width: 165px;
+  height: 49px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #d23166;
+  color: #fff;
+}
+
+.our_product__centr {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.our_product_title {
+  font-family: 'Hind Madurai';
+  display: flex;
+  justify-content: end;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.our_product_text {
+   font-family: 'Roboto';
+  display: flex;
+  justify-content: end;
+  width: 430px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  margin: 10px 0;
+  color: #000000;
+
+  opacity: 0.7;
+  margin: 30px 0;
+}
+.our_product_btn {
+  width: 165px;
+  height: 49px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #d23166;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.our_sweet__end {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 35px 0;
+}
+.our_sweet_title {
+  font-family: 'Hind Madurai';
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.our_sweet_text {
+   font-family: 'Roboto';
+  display: flex;
+  width: 430px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  margin: 10px 0;
+  color: #000000;
+
+  opacity: 0.7;
+  margin: 30px 0;
+}
+
+.our_sweet_btn {
+  width: 165px;
+  height: 49px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #d23166;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.Adele {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Hind Madurai';
+}
+.adele_title {
+  display: flex;
+}
+
+.adele_title2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.adele__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.adele__text {
+  /* AMIRICAN */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #000000;
+
+  opacity: 0.7;
+}
+.adele_text {
+  /* Thanks a lot for the prompt service. Really appreciate. Excellence taste in Every Bite.Add a joy of best Taste. Foodie Moments. */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #000000;
+
+  opacity: 0.7;
+  width: 300px;
+}
+.adele_text_deceret {
+  margin: 30px 0;
+}
+.adele__end {
+}
+
+.adele_right {
+  margin-left: 50px;
+}
+
+.simple__continer {
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+
+  background-color: #f8edf0;
+}
+.simple_left {
+  margin-top: 50px;
+}
+
+.simple_rigt {
+  width: 700px;
+  margin-top: 150px;
+}
+.simple__title {
+   font-family: 'Roboto';
+  /* Simple Way To Order Your Food */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44.2px;
+  line-height: 52px;
+
+  color: #000000;
+}
+.simple__text {
+   font-family: 'Roboto';
+  /* Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts. */
+  width: 530px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  margin: 30px 0;
+  color: #0f0101;
+
+  opacity: 0.7;
+}
+.simple__playmarket {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.telnow {
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.have__question {
+   font-family: 'Roboto';
+  width: 480px;
+  display: flex;
+  justify-content: center;
+  /* Have Question in Mind? Let us help you */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+
+  color: #000000;
+}
+.telnow__input {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+.telnow__tel {
+  width: 250px;
+  height: 49px;
+  border: 1px solid #ffa3a3;
+  border-radius: 5px;
+}
+.telnow__type {
+  width: 250px;
+  height: 49px;
+  border: 1px solid #ffa3a3;
+  border-radius: 5px;
+}
+.telnow__your {
+  width: 450px;
+  height: 49px;
+  border: 1px solid #ffa3a3;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+.telnow__btn {
+  width: 80px;
+  height: 49px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #d23166;
+  color: #fff;
+}
+/*footer*/
+
+.footer__continer {
+  border: 1px solid;
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  background-color: #000000;
+  align-items: center;
+}
+.footer__text {
+  /* Some food has looked so awful that it's looked like something that the dog's brought home. */
+   font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+
+  width: 200px;
+  margin: 20px 0;
+}
+
+.footer__title {
+  /* Fllow Us */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.footer__links {
+  margin-top: 80px;
+}
+
+.footer__media {
+  margin: 10px 0;
+}
+.footer__item {
+  margin: 5px 0;
+}
+.footer__link {
+  color: #f8edf0;
+  margin: 5px 0;
+}
+
+.footer__Delivery {
+  margin-top: 90px;
+}
+
+.footer_subtitle {
+  /* Newsletter */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.footer__inputs {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+input {
+  width: 220px;
+  height: 49px;
+  border: 1px solid #ffa3a3;
+  border-radius: 5px;
+}
+.footer__btn {
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #d23166;
+  color: #fff;
+  margin: 10px 0;
+}
